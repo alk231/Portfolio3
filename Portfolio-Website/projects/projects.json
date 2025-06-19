@@ -15,7 +15,7 @@
     "image": "assets/images/projects/HealCart.jpeg",
     "category": "mern",
     "links": {
-      "view": "assets/images/Health.webp",
+      "view": "https://github.com/alk231/healcart3.git",
       "code": "https://github.com/alk231/healcart3.git"
     }
   },
