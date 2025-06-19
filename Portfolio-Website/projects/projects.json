@@ -12,7 +12,7 @@
   {
     "name": "HealCart",
     "desc": "Full-Stack Healthcare E-commerce website. Built using MERN stack. Provides all major features.",
-    "image": "assets/images/projects/HealCart.jpeg",
+    "image": "HealCart",
     "category": "mern",
     "links": {
       "view": "https://github.com/alk231/healcart3.git",
@@ -22,7 +22,7 @@
   {
     "name": "Game Listing App",
     "desc": "Its a game listing app built using ReactJS and Chakra UI. Supports dark mode. API used RAWG.",
-    "image": "assets/images/projects/Game.jpg",
+    "image": "Game",
     "category": "React",
     "links": {
       "view": "https://game-listing-app4.onrender.com",
@@ -32,7 +32,7 @@
   {
     "name": "UPI Payment Fraud Detection",
     "desc": "Machine Learning project to detect UPI payment frauds. Built using Python, Flask and ML.",
-    "image": "assets/images/projects/Upi.jpg",
+    "image": "Upi",
     "category": "ML",
     "links": {
       "view": "https://mini-project-2-3w1q.onrender.com/",
@@ -42,7 +42,7 @@
   {
     "name": "Myntra-clone",
     "desc": "frontend clone of Myntra website. Built using ReactJS and Chakra UI. Supports dark mode.",
-    "image": "assets/images/projects/myntra.jpeg",
+    "image": "myntra",
     "category": "React",
     "links": {
       "view": "https://alk231.github.io/Myntra-Project/",
@@ -52,7 +52,7 @@
   {
     "name": "AI Medical RAG Application",
     "desc": "An AI-powered medical assistant that answers health-related queries using real-time document retrieval and intelligent response generation.",
-    "image": "assets/images/projects/medbot.jpeg",
+    "image": "medbot",
     "category": "basicweb",
     "links": {
       "view": "https://github.com/alk231/medBot.git",
