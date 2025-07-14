@@ -1,44 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Alok kumar portfolio, Alok, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
-    <meta name="description" content="Welcome to Alok's Portfolio. Full-Stack Web Developer and Android App Developer" />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Favicon -->
-    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
-    <title>Portfolio | Alok kumar gupta</title>
-</head>
-<body oncontextmenu="return false">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Alok kumar portfolio, Alok, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+  <meta name="description" content="Welcome to Alok's Portfolio. Full-Stack Web Developer and Android App Developer" />
 
-<!-- pre loader -->
-<!-- <div class="loader-container">
-  <img draggable="false" src="./assets/images/preloader.gif" alt="">
-</div> -->
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Favicon -->
+  <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+  <title>Portfolio | Alok kumar gupta</title>
+
+  <style>
+    /* Custom AK Hexagon Icon */
+    .custom-icon {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      background: #68a063; /* Node.js green */
+      clip-path: polygon(
+        25% 0%, 75% 0%, 100% 50%,
+        75% 100%, 25% 100%, 0% 50%
+      );
+      color: white;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      font-size: 14px;
+      text-align: center;
+      line-height: 32px;
+      margin-right: 6px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+
+<body oncontextmenu="return false">
 
 <!-- navbar starts -->
 <header>
-        <a href="/" class="logo"><i class="fab fa-node-js"></i> Alok</a>
+  <a href="/" class="logo">
+    <svg width="36" height="36" viewBox="0 0 100 100" style="vertical-align: middle; margin-right: 6px;">
+      <defs>
+        <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:#00c853;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#64dd17;stop-opacity:1" />
+        </linearGradient>
+      </defs>
+      <polygon points="50,5 93,27.5 93,72.5 50,95 7,72.5 7,27.5"
+               fill="url(#grad)" rx="8" ry="8" />
+      <text x="50%" y="60%" text-anchor="middle" fill="white" font-size="32" font-family="Arial" font-weight="bold">AK</text>
+    </svg> Alok
+  </a>
 
-        <div id="menu" class="fas fa-bars"></div>
-        <nav class="navbar">
-            <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+  <div id="menu" class="fas fa-bars"></div>
+  <nav class="navbar">
+    <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 </header>
 <!-- navbar ends -->
+
+
 
 
 <!-- hero section starts -->
